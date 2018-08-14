@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Main_LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context="com.blog.sajal.fitandflab.MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/weightLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/bd_weight"
+        android:hapticFeedbackEnabled="false">
+
+        <ImageView
+            android:id="@+id/imgWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/weight" />
+
+        <TextView
+            android:id="@+id/txtweightPer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="7dp"
+            android:paddingRight="5dp"
+            android:text="30%"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/txtweightPer"
+            android:paddingLeft="10dp"
+            android:text="Weight Lifting"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView8"
+            android:layout_marginStart="11dp"
+            android:paddingBottom="5dp"
+            android:text="Do you even fit? " />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/bd_weight"
+            android:backgroundTint="#22222222"
+            android:paddingLeft="5dp"
+            android:text="10 Sets"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/corner_curbe"
+            android:padding="2dp"
+            android:paddingBottom="10dp"
+            android:text="Current Exercise"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/YougaLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_yugo"
+        android:hapticFeedbackEnabled="false">
+
+        <ImageView
+            android:id="@+id/yougaImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/lotus" />
+
+        <TextView
+            android:id="@+id/txtPercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="7dp"
+            android:paddingRight="5dp"
+            android:text="0%"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtYoga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/txtPercentage"
+            android:paddingLeft="10dp"
+            android:text="Yoga"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtSalam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtYoga"
+            android:layout_marginStart="11dp"
+            android:paddingBottom="5dp"
+            android:text="salam " />
+
+        <TextView
+            android:id="@+id/textYogaSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/bd_weight"
+            android:backgroundTint="#22222222"
+            android:paddingLeft="5dp"
+            android:text="1 Hour"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtCurrent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/corner_curbe"
+            android:padding="2dp"
+            android:paddingBottom="10dp"
+            android:text="Current Exercise"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/heartLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_heart"
+        android:hapticFeedbackEnabled="false">
+
+        <ImageView
+            android:id="@+id/imgHeart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/heart" />
+
+        <TextView
+            android:id="@+id/txtheartPer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="7dp"
+            android:paddingRight="5dp"
+            android:text="30%"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtYogaWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/txtheartPer"
+            android:paddingLeft="10dp"
+            android:text="Heart"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtCardio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtYogaWeight"
+            android:layout_marginStart="11dp"
+            android:paddingBottom="5dp"
+            android:text="Cardio " />
+
+        <TextView
+            android:id="@+id/txtHeartSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/bd_weight"
+            android:backgroundTint="#22222222"
+            android:paddingLeft="5dp"
+            android:text="5 Miles"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtHeartCurrent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/corner_curbe"
+            android:padding="2dp"
+            android:paddingBottom="10dp"
+            android:text="Current Exercise"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+</LinearLayout>
