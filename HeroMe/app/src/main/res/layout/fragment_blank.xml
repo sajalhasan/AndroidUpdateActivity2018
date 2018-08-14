@@ -1,0 +1,110 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.blog.sajal.herome.fragment.BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_color"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#243749"
+            android:minHeight="?attr/actionBarSize">
+
+            <ImageView
+                android:id="@+id/imgToolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/top_banner_bar" />
+        </android.support.v7.widget.Toolbar>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:text="How do get your power(SajaL)?"
+            android:textColor="#fbc82d"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="127dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/heroes" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <Button
+                android:id="@+id/btn_accident"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="28dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_btn"
+                android:drawableLeft="@mipmap/lightning"
+                android:drawableRight="@mipmap/item_selected"
+                android:text="Came By Accident"
+                android:textColor="#fbc82d" />
+
+            <Button
+                android:id="@+id/btn_genetic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="28dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_btn"
+                android:drawableLeft="@mipmap/spider_web"
+                android:drawableRight="@mipmap/item_selected"
+                android:text="Genetic Mutation"
+                android:textColor="#fbc82d" />
+
+            <Button
+                android:id="@+id/btn_born"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="28dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_btn"
+                android:drawableLeft="@mipmap/rocket"
+                android:drawableRight="@mipmap/item_selected"
+                android:text="Born with them"
+                android:textColor="#fbc82d" />
+
+            <Button
+                android:id="@+id/btn_chose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="28dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_chose"
+                android:text="Chose Power"
+                android:textColor="#111a23" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

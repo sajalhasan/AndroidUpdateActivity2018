@@ -4,8 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.blog.sajal.herome.MainActivity">
+    android:orientation="vertical"
+    tools:context="com.blog.sajal.herome.activities.MainActivity">
 
 
+    <FrameLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.MainActivity"></FrameLayout>
 
 </LinearLayout>
